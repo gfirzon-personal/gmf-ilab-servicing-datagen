@@ -6,7 +6,7 @@ docker build -t gmf-ilab-servicing-datagen-image . && docker image prune -f
 ### Run the docker container using the image with volume
 Note: make sure to create docker volume named 'test-volume' prior to running this
 ```sh
-docker run -it -v test-volume:/app/data --name nuvem-claims-generator -p 8503:8000 nuvem-claims-generator-image:latest
+docker run -it -v servicing-volume:/app/data --name gmf-ilab-servicing-datagen -p 8503:8000 gmf-ilab-servicing-datagen-image:latest
 ```
 
 ### Run the docker container using the image and specified docker network (UNUSED for now)

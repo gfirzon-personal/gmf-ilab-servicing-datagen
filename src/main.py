@@ -2,14 +2,14 @@ import os
 import pandas as pd
 from tqdm import tqdm
 
-from generator import (generate_claim_record)
+from accounts_generator import (generate_account_record)
 
 def main(count):
     # Define the directory containing the text file and the persistent directory
     data_dir = "/app/data"
 
-    output_file_name = f"test_claim_set_{count}.csv"
-    output_file_name_json = f"test_claim_set_{count}.json"
+    output_file_name = f"test_accounts_set_{count}.csv"
+    output_file_name_json = f"test_account_set_{count}.json"
 
     # Define the directory containing the text file and the persistent directory
     #current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -22,7 +22,7 @@ def main(count):
         os.makedirs(persistent_directory)
 
     # Generate the dataset
-    data = [generate_claim_record() for _ in tqdm(range(count), desc="Generating Records")]
+    data = [generate_account_record() for _ in tqdm(range(count), desc="Generating Records")]
 
     # Convert to a DataFrame 
     df = pd.DataFrame(data)
