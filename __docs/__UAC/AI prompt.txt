@@ -1,0 +1,23 @@
+## AI prompt for Servicing POC project
+
+I am an AI developer. I have been asked to create an AI solution for our company's loan servicing department.
+
+For phase 1. I will need to create a report that display the following:
+
+Account number
+Person's Name
+Last contact date:                                                                                                                                                               
+Last paid date:
+Last Payment extension:
+Cure sent/Needed:
+Was Accel sent (If needed)
+Credit reporting past due 31, 61,91:
+Last assigned for repossession:
+Previous repo/reinstatement date:
+Reason for being past due:
+Extension eligible:
+
+I do not access to real systems, instead I have to create synthetic data that will be in the 
+form of either csv or json files that will loaded into AI Search service indexes.
+
+I need those synthetic files

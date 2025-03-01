@@ -1,10 +1,11 @@
 1. Provide a count of accounts that are in the over 60-day group.
     a. Probably not very useful for everyday business but can serve as a sanity check.
 
-2. Provide a risk assessment of the account (based on account number) as well as a summary of the actions that have worked and what is not working based on the customer’s status.``
-	Provide a recap of the account history (based on account number) as well as suggested actions to take based on the account risk profile.
+2. Provide a risk assessment of the account (based on account number) as well as a summary of the actions that have worked and what is not working based on the customer’s status.
 
-___________________________________
+3. Provide a recap of the account history (based on account number) as well as suggested actions to take based on the account risk profile.
+
+____________________________________________________________________________
 Notes from Servicing Demo
 
 1. Summarization based on payment
@@ -53,17 +54,17 @@ Transcriptions of the calls between customer and GMF service representative
 Notes that were added by GMF service rep after the call
 Records of payment history by the custome
 
-____________________________________________
- 
+__________________________________________________________________
 
-Template for account at 60 days:
-	Last contact date:                                                                                                                                                                              
-	Last paid date:
-	Last Payment extension:
-	Cure sent/Needed:
-	Was Accel sent (If needed)
-	Credit reporting 31, 61,91:
-	Last assigned for repossession:
-	Previous repo/reinstatement date:
-	Reason for being past due:
-	Extension eligible:
+Template for (a given) account at 60 days over:
+
+Last contact date:                                                                                                                                                               
+Last paid date:
+Last Payment extension:
+Cure sent/Needed:
+Was Accel sent (If needed)
+Credit reporting 31, 61,91:
+Last assigned for repossession:
+Previous repo/reinstatement date:
+Reason for being past due:
+Extension eligible:
